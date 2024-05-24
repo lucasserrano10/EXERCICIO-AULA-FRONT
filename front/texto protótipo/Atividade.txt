@@ -1,0 +1,9 @@
+* criar o projeto seguindo o protótipo 
+
+* as imagens podem ser diferentes
+
+* criar o projeto utilizando git e github
+
+* ao final do projeto mandar o link do github para que possa AVALIAR
+
+* Projeto em dupla

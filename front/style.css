@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    width: 100%;
+
+}
+
+.logo-bar{
+    color: white;
+}
+
+nav{
+    height: 8vh;
+    background-color: #f2495f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.inicial{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(img/projeto-front.jpg),linear-gradient(rgba(0, 0, 0, 0.786),rgba(5, 3, 3, 0.582));
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.inicial-content{
+    width: 60%;
+    padding: 5rem;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.inicial-content h2{
+    font-size: 5vmin;
+}
+
+.inicial-content p{
+    font-weight: 600;
+    margin-bottom: 2rem;
+    line-height: 3.6rem;
+}
+
+.btn{
+    background-color: #D9D9D9;
+    color: black;
+    border: 4px solid red;
+    padding: 8px 3.5rem;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.btn:hover{
+    background-color: transparent;
+    color: transparent;
+}
+
+.tres-cards{
+    display: flex;
+    gap: 15px;
+    text-align: center;
+}
+
+.card{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(59, 59, 59);
+}
